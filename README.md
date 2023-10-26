@@ -17,6 +17,25 @@ Prevents sticky hover state sometimes encountered on mobile.
 }
 ```
 
+### WordPress
+
+Reference color defined in theme.json.
+```
+var(--wp--preset--color--blue);
+```
+
+Reference spacing defined in theme.json
+```
+var(--wp--preset--spacing--80-40);
+```
+
+Reference content widths defined in theme.json
+```
+var(--wp--style--global--wide-size);
+```
+```
+var(--wp--style--global--content-size);
+```
 
 ## JS
 
