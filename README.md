@@ -60,6 +60,12 @@ Create new user for WordPress site using Lando and the WP-CLI
 lando wp user create name email@email.com --role=administrator --url=mylocal.site
 ```
 
+Import a db file 
+
+```
+lando db-import somedumpfile.sql.gz
+```
+
 ### Terminus
 
 Create new user on a pantheon environment using Terminus and the WP-CLI
