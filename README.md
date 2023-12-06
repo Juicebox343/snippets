@@ -74,6 +74,12 @@ Create new user on a pantheon environment using Terminus and the WP-CLI
 terminus wp pantheon-project.environment-name -- user create username email@email.com --role=administrator --user_pass="setAPassword"
 ```
 
+Deactivate a plugin on a pantheon environment using Terminus and the WP-CLI
+
+```
+terminus wp environment-name.site-name -- plugin deactivate plugin-name
+```
+
 ### WP-CLI
 
 Search all WordPress tables and replace something with something else. - Could be optimized I'm sure.
