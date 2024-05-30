@@ -71,13 +71,13 @@ lando db-import somedumpfile.sql.gz
 Create new user on a pantheon environment using Terminus and the WP-CLI
 
 ```
-terminus wp pantheon-project.environment-name -- user create username email@email.com --role=administrator --user_pass="setAPassword"
+terminus wp site-name.environment-name  -- user create username email@email.com --role=administrator --user_pass="setAPassword"
 ```
 
 Deactivate a plugin on a pantheon environment using Terminus and the WP-CLI
 
 ```
-terminus wp environment-name.site-name -- plugin deactivate plugin-name
+terminus wp site-name.environment-name -- plugin deactivate plugin-name
 ```
 
 ### WP-CLI
