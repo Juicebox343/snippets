@@ -84,5 +84,5 @@ terminus wp site-name.environment-name -- plugin deactivate plugin-name
 
 Search all WordPress tables and replace something with something else. - Could be optimized I'm sure.
 ```
-wp search-replace 'replace-me' 'with-me' --precise --recurse-objects --all-tables
+terminus remote:wp $site.$env -- search-replace 'replace-me' 'with-me' --verbose --all-tables --dry-run
 ```
